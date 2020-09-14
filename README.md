@@ -1,7 +1,7 @@
 # Dynamic Field Hints for Backpack 4
 
 
-This package provides automatic field hints for the [Backpack for Laravel](https://backpackforlaravel.com/) administration panel. 
+This package provides automatic [field hints](https://backpackforlaravel.com/docs/4.1/crud-fields#optional-field-attributes-for-presentation-purposes) for the [Backpack for Laravel](https://backpackforlaravel.com/) administration panel. 
  
 - Dynamic hints are only set if the method is called
 - Dynamic hints are only set if the column in the db has a Comment
@@ -26,6 +26,11 @@ Inside your custom CrudController:
     $this->crud->setFieldHintsFromColumnComments();
 ```
 
+## Supported Databases
+- MySQL 5.6+
+- PostgreSQL 9.4+
+- SQL Server 2017+
+
 ## Change log
 
 Please see the [changelog](changelog.md) for more information on what has changed recently.
@@ -40,8 +45,9 @@ If you discover any security related issues, please email [the author](composer.
 
 ## Credits
 
-- [Wesley Smith (DoDSoftware)](https://github.com/DoDSoftware) - creator;
-- [Cristian Tabacitu](https://github.com/tabacitu) - idea to make this an addon;
+- [Wesley Smith (DoDSoftware)](https://github.com/DoDSoftware) - creator
+- [Cristian Tabacitu](https://github.com/tabacitu) - idea to make this an addon
+- [Backpack For Laravel](https://backpackforlaravel.com/) - for making this package possible (and just being awesome in general)
 
 
 ## License
