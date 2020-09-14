@@ -14,7 +14,7 @@ This package provides automatic field hints for the [Backpack for Laravel](https
 Via Composer
 
 ``` bash
-composer require digitallyhappy/toggle-field-for-backpack
+composer require dodsoftware/dynamic-field-hints-for-backpack
 ```
 
 ## Usage
@@ -22,12 +22,8 @@ composer require digitallyhappy/toggle-field-for-backpack
 Inside your custom CrudController:
 
 ```php
-$this->crud->addField([
-    'name' => 'agreed',
-    'label' => 'I agree to the terms and conditions',
-    'type' => 'toggle',
-    'view_namespace' => 'toggle-field-for-backpack::fields',
-]);
+    $this->crud->addFields($fields);
+    $this->crud->setFieldHintsFromColumnComments();
 ```
 
 ## Change log

@@ -1,0 +1,46 @@
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+
+# Composer generated files #
+#############################
+/vendor
+
+
+# PHP Storm generated files #
+#############################
+.idea/
+
+
+# vagrant generated files #
+#############################
+.vagrant/
+
+
+# Laravel generated files #
+#############################
+/public/storage
+/storage/*.key
+/storage/debugbar/*
+Homestead.json
+Homestead.yaml
+.env
+
+
+# npm run generated files #
+#############################
+/node_modules
+npm-debug.log
+yarn-error.log
+
+
+# Misc #
+#############################
+.phpunit.result.cache
