@@ -1,6 +1,6 @@
 <?php
 
-namespace DigitallyHappy\ToggleFieldForBackpack;
+namespace DoDSoftware\DynamicFieldHintsForBackpack;
 
 use Backpack\CRUD\app\Library\CrudPanel\CrudPanel;
 use Illuminate\Support\Arr;
