@@ -1,12 +1,12 @@
 # Dynamic Field Hints for Backpack 4
 
+This package extends the [Backpack for Laravel](https://backpackforlaravel.com/) CrudPanel providing the ability to dynamically set the 'hint' value for its [CRUD fields](https://backpackforlaravel.com/docs/4.1/crud-fields#optional-field-attributes-for-presentation-purposes) by pulling the "comment" for the related column in the database if it exists.
 
-This package provides automatic [field hints](https://backpackforlaravel.com/docs/4.1/crud-fields#optional-field-attributes-for-presentation-purposes) for the [Backpack for Laravel](https://backpackforlaravel.com/) administration panel. 
- 
-- Dynamic hints are only set if the method is called
-- Dynamic hints are only set if the column in the db has a Comment
-- Dynamic hints are not set if a hint already exists on the field
-- Dynamic hints are not set if "hint" on the field is set to an empty string
+### Notes
+- hints are only set if the method is called
+- hints are only set if the column in the db has a Comment
+- hints are **not** set if a hint already exists on the field
+- hints are **not** set if "hint" on the field is set to an empty string
 
 
 ## Installation
