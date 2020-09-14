@@ -37,7 +37,7 @@ Please see the [changelog](changelog.md) for more information on what has change
 
 ## Contributing
 
-Please see [contributing.md](contributing.md) for details and a todolist.
+Please see [contributing.md](CONTRIBUTING.md) for details and a todolist.
 
 ## Security
 
