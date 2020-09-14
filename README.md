@@ -17,7 +17,7 @@ Via Composer
 composer require dodsoftware/dynamic-field-hints-for-backpack
 ```
 
-If you've disabled Laravel's auto package discovery, you'll need to also add the 
+If you've disabled Laravel's auto package discovery, you'll need to also add the below to your app's `config/app.php` file
 
 ``` 
 'providers' => [
