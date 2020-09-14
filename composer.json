@@ -17,7 +17,7 @@
     },
     "autoload": {
         "psr-4": {
-            "DoDSoftware\\FieldHintsForBackpack\\": "src/"
+            "DoDSoftware\\DynamicFieldHintsForBackpack\\": "src/"
         }
     },
     "extra": {

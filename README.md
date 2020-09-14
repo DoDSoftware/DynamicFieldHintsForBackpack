@@ -17,6 +17,15 @@ Via Composer
 composer require dodsoftware/dynamic-field-hints-for-backpack
 ```
 
+If you've disabled Laravel's auto package discovery, you'll need to also add the 
+
+``` 
+'providers' => [
+    // ...
+    DoDSoftware\DynamicFieldHintsForBackpack\AddonServiceProvider::class,
+];
+``` 
+
 ## Usage
 
 Inside your custom CrudController:
