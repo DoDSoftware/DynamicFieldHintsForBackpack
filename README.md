@@ -1,3 +1,10 @@
+<p align="left">
+    <br>
+    <a href="https://packagist.org/packages/dodsoftware/dynamic-field-hints-for-backpack" title="Latest Version on Packagist"><img src="https://img.shields.io/packagist/v/dodsoftware/dynamic-field-hints-for-backpack.svg?style=flat-square"></a>
+    <a href="https://packagist.org/packages/dodsoftware/dynamic-field-hints-for-backpack" title="Total Downloads"><img src="https://img.shields.io/packagist/dt/dodsoftware/dynamic-field-hints-for-backpack.svg?style=flat-square"></a>
+    <a href="LICENSE.md" title="Software License"><img src="https://img.shields.io/github/license/dodsoftware/DynamicFieldHintsForBackpack"></a>
+</p>
+
 # Dynamic Field Hints for Backpack 4
 
 This package extends the [Backpack for Laravel](https://backpackforlaravel.com/) CrudPanel providing the ability to dynamically set the 'hint' value for its [CRUD fields](https://backpackforlaravel.com/docs/4.1/crud-fields#optional-field-attributes-for-presentation-purposes) by pulling the "comment" for the related column in the database if it exists.
